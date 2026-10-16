@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/archmagos-cawl/Pictures/wallpapes/thinkpad.png' 

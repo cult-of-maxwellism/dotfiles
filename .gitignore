@@ -1,0 +1,24 @@
+# GNU Stow local ignore
+.stow-local-ignore
+
+# Editor backups and temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Neovim undo/shada/swap
+*.un~
+
+# Fish universal variables history / temporary
+fish_variables.bak
+
+# Sensitive tokens and keys
+**/*token*
+**/*secret*
+**/*credential*
+**/*password*
+*.pem
+*.key
+id_rsa
+id_ed25519
